@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
 import { Button } from 'semantic-ui-react';
+import { MyComponent } from './MyComponent';
+
 
 const App: React.FC = () => {
   return (
@@ -20,6 +22,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <MyComponent nombre='Abel' />
       </header>
     </div>
   );
