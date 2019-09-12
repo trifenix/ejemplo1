@@ -12,14 +12,10 @@ pool:
 
 steps:
 
-- script: 'git remote add githubEjemplo "https://trifenix:7075e1dbe014ad2833c63d62fbefe9d68efd9a3a@github.com/trifenix/ejemplo.git"'
+- script: 'git remote add githubEjemplo "https://trifenix:7075e1dbe014ad2833c63d62fbefe9d68efd9a3a@github.com/trifenix/ejemplo1.git"'
   displayName: 'git remote add '
 
 - script: |
    git remote -v
-   git checkout -b ejemploBranch
-   ls
-   git pull githubEjemplo master
-   ls
-   
+   git push githubEjemplo master
   displayName: 'push to githubEjemplo'
