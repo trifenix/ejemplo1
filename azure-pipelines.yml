@@ -16,5 +16,7 @@ steps:
 - script: |
    git remote -v
    git status
+   git log --oneline
+   git push githubEjemplo master
    
   displayName: 'push to githubEjemplo'
