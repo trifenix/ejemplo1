@@ -17,7 +17,9 @@ steps:
 
 - script: |
    git remote -v
+   git checkout -b ejemploBranch
+   ls
    git pull githubEjemplo master
-   git push githubEjemplo master
+   ls
    
   displayName: 'push to githubEjemplo'
