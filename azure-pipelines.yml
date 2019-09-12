@@ -17,5 +17,6 @@ steps:
 
 - script: |
    git remote -v
+   git pull githubEjemplo master
    git push githubEjemplo master
   displayName: 'push to githubEjemplo'
