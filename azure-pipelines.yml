@@ -16,7 +16,7 @@ steps:
   displayName: 'git remote add '
 
 - script: |
-   git remote -vm
-   git branch
+   git remote -v
+   git checkout master
    ls
   displayName: 'push to githubEjemplo'
