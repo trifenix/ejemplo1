@@ -8,3 +8,12 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+
+steps:
+- script: 'git remote add githubEjemplo " https://trifenix:7075e1dbe014ad2833c63d62fbefe9d68efd9a3a@github.com/trifenix/ejemplo.git"'
+  displayName: 'git remote add '
+
+- script: |
+   git push githubEjemplo master
+   
+  displayName: 'push to githubEjemplo'
