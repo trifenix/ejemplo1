@@ -17,5 +17,6 @@ steps:
 
 - script: |
    git checkout master
-   git pull githubEjemplo master
+   git status
+   
   displayName: 'push to githubEjemplo'
